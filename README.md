@@ -1,1 +1,4 @@
 # Blood-Pressure-Prediction-using-HRV
+
+###This paper attempts to develop a machine learning model for HRV assessment, based on 61 PPG datasets obtained from two wrist-mounted sensors (NTU-IRB approval #IRB-2021-737). The preliminary algorithm encompasses filtering, peak detection, and subsequent heartbeats interval (RR) calculation. Three Spatial Statistics approaches are introduced: Convex Hull Area, Circular Error Probable, and Mahalanobis Distance. 
+The achieved result reveals a significant correlation between all three spatial statistics approaches and the root mean square of successive differences between normal heartbeats (RMSSD), a standard statistical measure of HRV. A preliminary Random Forest classification model was developed, had achieved an accuracy of 92% in identifying whether an individual’s RMSSD falls within the normal range.
